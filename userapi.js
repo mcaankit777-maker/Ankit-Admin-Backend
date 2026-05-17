@@ -9,6 +9,7 @@ import cors from 'cors';
 import jwt from 'jsonwebtoken';
 import bcryptjs from 'bcryptjs';
 import Razorpay from "razorpay";
+import crypto from 'crypto';
 import dotenv from 'dotenv';
 
 dotenv.config();
